@@ -1,0 +1,25 @@
+$mainColor: blue;
+$secondColor: green;
+$thirdColor: yellow;
+
+.test {
+    text-align: center;
+    h2{
+        color: $mainColor;
+        font-size: 15em;
+    }
+    p{
+        color: $secondColor;
+        font-size: 9em;
+    }
+}
+
+.test_run {
+    text-align: left;
+    font-size: 10em;
+    color: $thirdColor;
+
+    p{
+        font-size: 10rem;
+    }
+}
